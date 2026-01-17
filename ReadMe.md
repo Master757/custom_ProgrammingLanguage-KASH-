@@ -115,12 +115,12 @@ while (i < n) {
 
 out(a);
 
+```
+
+**compile : g++ -std=c++17 src/main.cpp src/lexer/Lexer.cpp src/parser/Parser.cpp src/interpreter/Interpreter.cpp -o kash
 
 
-compile : g++ -std=c++17 src/main.cpp src/lexer/Lexer.cpp src/parser/Parser.cpp src/interpreter/Interpreter.cpp -o kash
-
-
-run : ./kash examples/test.myc
+**run : ./kash examples/test.myc
 
 **Project Goal**
 
@@ -129,5 +129,6 @@ The goal of Kash is not to replace existing languages, but to:
 Deeply understand how programming languages are built
 
 Experiment safely with language features
+
 
 Serve as a foundation for further compiler / interpreter work
